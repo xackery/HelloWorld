@@ -249,11 +249,11 @@ jobs:
       matrix:
         config:
         - {
-            name: "Windows Latest MSVC", artifact: "Windows-MSVC.tar.xz",
+            name: "Windows Latest MSVC", artifact: "windows.tar.xz",
             os: ubuntu-latest
           }        
         - {
-            name: "Ubuntu Latest GCC", artifact: "Linux.tar.xz",
+            name: "Ubuntu Latest GCC", artifact: "linux.tar.xz",
             os: ubuntu-latest
           }        
     needs: release
